@@ -1,0 +1,55 @@
+{
+  "name": "arktm",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.0.0",
+  "engines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.16.0",
+      "onFail": "download"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "pnpm type:check && vite build",
+    "type:check": "vue-tsc -b",
+    "preview": "vite preview",
+    "lint:eslint": "eslint .",
+    "lint:eslint:fix": "eslint . --fix",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@unhead/vue": "3.0.0-beta.9",
+    "@vee-validate/valibot": "^4.15.1",
+    "@vueuse/core": "^14.3.0",
+    "ofetch": "^1.5.1",
+    "radashi": "^12.9.1",
+    "type-fest": "^5.7.0",
+    "valibot": "^1.4.1",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.34",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.0.0",
+    "@commitlint/cli": "^21.0.2",
+    "@commitlint/config-conventional": "^21.0.2",
+    "@types/node": "^24.12.3",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vue/tsconfig": "^0.9.1",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^10.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "postcss-nested": "^7.0.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "vite-plugin-vue-devtools": "^8.1.2",
+    "vue-tsc": "^3.2.8"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue,md,html,json,jsonc,yaml}": "eslint --fix"
+  }
+}
