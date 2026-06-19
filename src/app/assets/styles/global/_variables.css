@@ -1,5 +1,6 @@
 :root {
-  --typo-font-family-primary: Roboto;
-  --color-background: black;
-  --color-foreground: white;
+  --typo-font-family-primary: 'Proxima Nova', system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen, ubuntu, cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --color-background: #111111;
+  --color-foreground: #ffffff;
+  --color-brand: #E81C5A;
 }

@@ -1,6 +1,7 @@
 @import url("./_variables");
 
 body {
+  font-family: var(--typo-font-family-primary);
   color: var(--color-foreground);
   background-color: var(--color-background);
 }
