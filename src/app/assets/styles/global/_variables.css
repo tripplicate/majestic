@@ -1,6 +1,14 @@
 :root {
-  --typo-font-family-primary: 'Proxima Nova', system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen, ubuntu, cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --font-family-primary: 'Proxima Nova', system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen, ubuntu, cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  --font-weight-extrabold: 700;
+  --font-weight-bold: 600;
+  --font-weight-semibold: 500;
+  --font-weight-regular: 400;
+  --font-weight-light: 300;
+
   --color-background: #111111;
   --color-foreground: #ffffff;
+  --color-outline: #ffffff10;
   --color-brand: #E81C5A;
 }
