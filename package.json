@@ -21,6 +21,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@floating-ui/vue": "^2.0.0",
     "@unhead/vue": "3.0.0-beta.9",
     "@vee-validate/valibot": "^4.15.1",
     "@vueuse/core": "^14.3.0",
